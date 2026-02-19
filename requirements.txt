@@ -1,0 +1,20 @@
+# Core dependencies
+mediapipe>=0.10.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# ML inference (use tflite-runtime for lighter installs, or full tensorflow)
+# tflite-runtime>=2.13.0
+tensorflow>=2.13.0
+
+# Encryption (optional -- needed only when encryption is enabled)
+cryptography>=41.0.0
+
+# Sound cues (optional -- system falls back to silent mode without it)
+pygame>=2.5.0
+
+# PDF preview (optional -- receiver only)
+PyMuPDF>=1.23.0
+
+# Testing
+pytest>=7.0.0
